@@ -17,7 +17,7 @@ body,
   -ms-user-select: none;
   user-select: none;
   overflow: hidden;
-  background-image:  url('./skyline.jpg') ;
+  background-image:  url('/skyline.jpg') ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
