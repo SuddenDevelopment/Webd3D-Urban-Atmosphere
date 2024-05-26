@@ -1,7 +1,7 @@
 {
-  "name": "react-three-vite",
+  "name": "Web3D Urban Atmosphere",
   "version": "1.0.2",
-  "description": "A simple React Three Fiber + Vite starter with an import-ready CodeSandbox config.",
+  "description": "A scene to test post processing",
   "keywords": [
     "r3f",
     "react",
@@ -12,8 +12,9 @@
     "sandbox",
     "codesandbox"
   ],
-  "author": "Benjamin Miles <talk@benjaminmiles.com> (https://github.com/benjaminmiles)",
-  "repository": "github:benjaminmiles/react-three-vite",
+  "author": "Anthony Aragues (https://anthonyaragues.com)",
+  "repository": "github:suddendevelopment/web3d_urban_atmosphere",
+  "homepage": "https://suddendevelopment.github.io/web3d_urban_atmosphere/",
   "license": "MIT",
   "dependencies": {
     "@react-three/drei": "9.105.5",
