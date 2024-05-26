@@ -8,7 +8,7 @@ const server = process.env.APP_ENV === "sandbox" ? { hmr: { clientPort: 443 } } 
 // https://vitejs.dev/config/
 export default defineConfig({
   server: server,
-  base: "/Webd3D-Urban-Atmosphere/",
+  base: "./",
   build: {
     chunkSizeWarningLimit: 6000 // size in KB
   },
