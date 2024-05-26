@@ -11,7 +11,7 @@ import { useFrame } from '@react-three/fiber';
 
 const context = createContext()
 export function Instances({ children, ...props }) {
-  const { nodes } = useGLTF('/urban-transformed.glb')
+  const { nodes } = useGLTF('./urban-transformed.glb')
   const instances = useMemo(
     () => ({
       Metalwindow: nodes.metal_window_4005,
@@ -27,7 +27,7 @@ export function Instances({ children, ...props }) {
 
 export function Model(props) {
   const instances = useContext(context)
-  const { nodes, materials } = useGLTF('/urban-transformed.glb')
+  const { nodes, materials } = useGLTF('./urban-transformed.glb')
   const objDrone = useRef();
 
   useEffect(() => {
@@ -69,4 +69,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/urban-transformed.glb')
+useGLTF.preload('./urban-transformed.glb')

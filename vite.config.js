@@ -9,6 +9,9 @@ const server = process.env.APP_ENV === "sandbox" ? { hmr: { clientPort: 443 } } 
 export default defineConfig({
   server: server,
   base: "/Webd3D-Urban-Atmosphere/",
+  build: {
+    chunkSizeWarningLimit: 6000 // size in KB
+  },
   resolve: {
     alias: {
       "@src": resolve(__dirname, "./src"),
