@@ -1,8 +1,7 @@
-# React Three Fiber + Vite Starter
+# Web3D Urban Atmosphere Demo
 
-_A simple React Three Fiber + Vite starter with an import-ready CodeSandbox config._
-
-![Preview](/public/preview.gif)
+https://youtu.be/d4dc462iAWM
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/d4dc462iAWM/0.jpg)](https://www.youtube.com/watch?v=d4dc462iAWM)
 
 ### Resources:
 
